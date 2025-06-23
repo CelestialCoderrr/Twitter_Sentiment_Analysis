@@ -121,6 +121,9 @@ from nltk.tokenize import word_tokenize
 
 custom_tweet = input("Enter a tweet: ")
 
+print("\nTweet: ",custom_tweet)
+print("\n")
+
 custom_tokens = remove_noise(word_tokenize(custom_tweet))
 
 print(classifier.classify(dict([token, True] for token in custom_tokens)))
