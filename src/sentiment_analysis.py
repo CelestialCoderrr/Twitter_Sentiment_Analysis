@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Mar 29 13:12:49 2025
-
-@author: Sandhita
-"""
 import nltk
 from nltk.corpus import twitter_samples
 #nltk.download('punkt_tab')
